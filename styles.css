@@ -1,0 +1,754 @@
+body {
+    background-image: url('noise_lines.png');
+    width: fit-content;
+}
+
+.mainDiv {
+    transform: scale(.92);
+    background-image: url('groovepaper.png');
+    /* height: 810px; */
+    border-radius: 4%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+    width: fit-content;
+}
+
+button {
+    border-radius: 0.7rem !important;
+    margin: .7rem 0;
+    border-color: white !important;
+}
+
+p {
+    color: rgb(156, 155, 155);
+}
+
+hr {
+    color: rgb(161, 161, 161);
+    border: .5px solid;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+
+h4 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+
+
+/* Icons Section */
+
+.fly-logo {
+    transform: scaleX(-1);
+    height: 3rem;
+    width: 3rem;
+    margin: 0.35vw;
+}
+
+.icon1 {
+    margin-top: 1vw;
+}
+
+.icon2 {
+    margin-top: 4vw;
+}
+
+.icon3 {
+    margin-top: 20rem;
+
+}
+
+.icon button {
+    margin: 1.2vw auto;
+}
+
+.home {
+    font-size: x-large;
+    color: #d2d2d2;
+    /* color: white; */
+    height: 2vw;
+    width: 2vw;
+
+}
+
+/* .btn:hover .home {
+    color: white !important;
+} */
+
+
+/* Profile info section */
+
+.profileImg {
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1vw;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px #cacaca;
+}
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.profileInfo {
+    width: 21rem;
+    padding: 2.6vw;
+    margin: 0 .5vw;
+    background-color: rgb(242, 242, 242);
+}
+
+.todayInfo div {
+    margin-bottom: 1.2vw;
+}
+
+.recentTrans p {
+    margin-bottom: .5vw;
+}
+
+.recentTrans h4 {
+    margin-bottom: 2vw;
+}
+
+
+/* Retirement income */
+
+.infoStats {
+    width: 49vw;
+    padding: 2.5vw;
+}
+
+.retIncome {
+    margin-bottom: 2vw;
+}
+
+.startingYr {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.startingYr-blocks {
+    width: 10rem;
+}
+
+.startingYr-blocks div {
+    height: 2px;
+    background-color: rgb(89, 89, 255);
+    opacity: 50%;
+}
+
+
+/* stacked graph */
+
+
+#stackedChart {
+    display: block;
+    height: 22vw !important;
+    width: 42.5vw !important;
+}
+
+.chart-title {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+.chart-label {
+    font-size: 1vw;
+    text-align: center;
+}
+
+.chart-description {
+    text-align: center;
+    margin: 1.5vw 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.colorDis {
+    height: 13px;
+    width: 18px;
+    opacity: 0.7;
+    border-radius: 40%;
+    margin: 0 .5vw;
+}
+
+.chart-description-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 1vw;
+}
+
+.chart-description-box span p {
+    margin: auto !important;
+}
+
+.chart-description-box h6 {
+
+    margin: auto auto auto .5vw !important;
+}
+
+
+/* Compare to my peers */
+
+
+.canvasdonut {
+    height: 8vw !important;
+    width: 8vw !important;
+}
+
+.donut-chart-container {
+    display: inline-block;
+    width: 8vw;
+    height: 8vw;
+    position: relative;
+    margin: 1vw;
+}
+
+.percentage-text {
+    font-size: 2vw;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compareWith {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 0;
+}
+
+.ageGraph {
+    display: flex;
+    flex-direction: row;
+}
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.doughnutGraphs {
+    display: flex;
+    flex-direction: row;
+}
+
+.donut-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.donut-chart-container h5 {
+    margin-top: 1vw;
+}
+
+.form-select {
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    width: fit-content !important;
+    background-color: transparent;
+}
+
+
+/* 4th compartment */
+
+
+.strategyLmore {
+    margin: 3vw 1vw;
+}
+
+
+/* strategy */
+
+
+.retStrategy {
+    border-radius: 1rem;
+    background-color: rgb(245, 245, 245);
+    padding: 2vw;
+}
+
+
+/* range slider */
+
+.slider {
+    appearance: none;
+    width: 90%;
+    height: .3rem;
+    border-radius: 5px;
+    background: linear-gradient(to right, #7F8DFF 0%, #7F8DFF 50%, #80FFFF 50%, #80FFFF 100%);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 0px #baaeae !important;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.rangeNum {
+    display: flex;
+    align-items: center;
+}
+
+.rangeNum h5 {
+    margin: 0 0 0 1rem !important;
+}
+
+
+/* interest rates and update */
+
+.update-btn {
+    width: 15rem;
+    padding: .7rem;
+}
+
+.interestRates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.interestRates h5 {
+    font-size: large;
+    font-weight: 400;
+}
+
+
+/* learn more */
+
+.lMore {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line-vr {
+    width: 2px;
+    height: 10rem;
+    background-color: blue;
+    margin: 1rem 2rem 1rem 1rem;
+    opacity: 50%;
+}
+
+/* footer */
+
+.footerSection {
+    display: none;
+}
+
+/* headder */
+
+.headIcon {
+    display: none;
+}
+
+/* media Query */
+@media (min-width: 730px) {
+    .footerSection {
+        height: 70px !important;
+    }
+}
+
+
+@media (max-width: 972px) {
+    .mainDiv {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0 !important;
+        align-items: center;
+        border-radius: 0;
+        transform: scale(.97);
+    }
+    
+    body {
+        background-color: white !important;
+        margin: 2vw !important;
+        background-image: url(groovepaper.png);
+    }
+
+    /* icons */
+
+    .iconSection {
+        display: none !important;
+    }
+
+    /* bell headder */
+
+    .headIcon {
+        display: flex !important;
+        position: sticky;
+        top: 0;
+        height: 60px;
+        width: 100%;
+        z-index: 1;
+        background-color: white;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
+    .headIcon button {
+        margin: 1.5vw !important;
+        width: 3rem !important;
+    }
+
+    .headIcon img {
+        margin: 4vw;
+    }
+
+    .headIcon button {
+        margin: 3vw 6vw !important;
+    }
+
+    .headIcon button i {
+        font-size: larger;
+        color: #ffffff;
+    }
+
+    .footerSection {
+        /* z-index: 2; */
+        display: flex !important;
+        flex-direction: row !important;
+        position: sticky;
+        height: 60px;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.936);
+        justify-content: space-evenly;
+        /* background-image: url('noise_lines.png'); */
+    }
+
+
+
+    /* .footerSection button {} */
+
+    .footerSection button {
+        margin: 1.5vw !important;
+        width: 3rem !important;
+        /* box-shadow: 0px 0px 20px 0px #cacaca; */
+        cursor: pointer;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .footerSection button i {
+        font-size: medium;
+        color: #a59595;
+    }
+    .footerSection button:hover i {
+        font-size: medium;
+        color: #ffffff;
+    }
+
+    button.active {
+        box-shadow: 3px 2px 20px 5px rgba(0, 0, 0, 0.2);
+
+    }
+
+
+
+    /* profile info section */
+
+    .profileInfo {
+        width: unset !important;
+        /* background-color: rgb(255, 255, 255) !important; */
+        border-radius: 30px;
+    }
+
+    .profile {
+        margin: 20vw 2vw 5vw 2vw;
+    }
+
+    .greetings {
+        margin-left: 10vw;
+    }
+
+    .greetings p {
+        margin-bottom: 0 !important;
+    }
+
+    .todayInfo {
+        display: flex !important;
+        flex-direction: column !important;
+        border-radius: 1rem;
+        background-color: rgb(245, 245, 245);
+        padding: 8vw;
+    }
+
+    .todayInfo button {
+        padding: 0.5rem 5rem !important;
+    }
+
+    .todayInfo div h4 {
+        margin-bottom: 0 !important;
+    }
+
+    .todayInfo h1 {
+        margin-bottom: 0 !important;
+    }
+
+
+    .recentTrans {
+        border-radius: 1rem;
+        background-color: rgb(245, 245, 245);
+        padding: 8vw;
+    }
+
+    .recentTrans h4 {
+        margin-bottom: 5vw;
+    }
+
+    /*  */
+
+    .compareWith {
+        display: none;
+    }
+
+    .strategyLmore {
+        display: none;
+    }
+
+    /* information & stats */
+
+    .infoStats {
+        margin-top: 7vw;
+        width: unset !important;
+    }
+
+    .startingYr {
+        margin-top: 8vw;
+        flex-direction: column !important;
+    }
+
+    .startingYr-blocks {
+        width: unset !important;
+        margin-bottom: 6vw;
+    }
+
+    .ContriOvertime {
+        margin-top: 10vw;
+    }
+
+    .ContriOvertime h4 {
+        margin-bottom: 7vw;
+    }
+
+    .chart-description-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #stackedChart {
+        display: block;
+        height: 54vw !important;
+        width: 91vw !important;
+        padding: 0 1vw;
+        margin: 7vw 0;
+    }
+
+    .interestRates {
+        justify-content: center;
+    }
+    .interestRates h6 {
+        margin: 0 1rem;
+    }
+
+    .retStrategy-2 h5 {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media (max-width:480px) {
+    .footerSection button i {
+        position: relative !important;
+        right: 3px !important;
+    }
+
+    .headIcon button i {
+        position: relative !important;
+        right: 3px !important;
+    }
+}
+
+/* Offcanvas */
+
+.offcanvas-header {
+    margin: 0 !important;
+    padding: 0 0 6px 0 !important;
+}
+
+.offcanvas .compareWith .update-btn {
+    width: -webkit-fill-available;
+    padding: 11.2px;
+    border-radius: 0 !important;
+}
+
+.offcanvas .compareWith {
+    display: block;
+    padding: 0 20px 0 20px;
+}
+
+.offcanvas .retStrategy {
+    padding: 10px 20px;
+    height: -webkit-fill-available;
+}
+
+.offcanvas .compareWith .retStrategy {
+    padding: 96px;
+    border-radius: 32px;
+    border-end-start-radius: 0;
+    border-end-end-radius: 0;
+}
+
+.offcanvas .compareWith button {
+    margin: 0;
+    border: 0;
+}
+
+.offcanvas .compareWith div h4 {
+    margin: 0;
+    font-size: 17px;
+}
+
+.offcanvas .compareWith div p {
+    font-size: 10px;
+}
+
+.offcanvas hr {
+    margin: 5px 0;
+}
+
+
+.offcanvas .compareWith .ageGraph {
+    flex-direction: column;
+}
+
+.offcanvas .compareWith .doughnutGraphs {
+    margin: 10px 0;
+    height: 125px;
+    justify-content: space-around;
+}
+
+.offcanvas .compareWith .donut-chart-container {
+    /* display: inline-block; */
+    width: 96px;
+    height: 96px;
+    /* position: relative; */
+    /* margin: 1vw; */
+}
+
+.offcanvas .compareWith .donut-chart-container h5 {
+    font-size: 14px;
+}
+
+.offcanvas .compareWith .percentage-text {
+    font-size: 16px;
+}
+
+.offcanvas .compareWith .canvasdonut {
+    height: 96px !important;
+    width: 96px !important;
+}
+
+.offcanvas .interestRates {
+    margin: 10px 0 !important;
+}
+
+@media (max-width:500px) and (min-width:351px) {
+    .offcanvas .compareWith .canvasdonut {
+        height: 96px !important;
+        width: 96px !important;
+    }
+
+    .offcanvas .compareWith .doughnutGraphs {
+        justify-content: space-around;
+    }
+
+    .offcanvas .compareWith .donut-chart-container {
+        width: 96px;
+        height: 96px;
+    }
+
+}
+
+@media (max-width:350px) {
+    .offcanvas .compareWith .canvasdonut {
+        height: 96px !important;
+        width: 96px !important;
+    }
+
+    .offcanvas .compareWith .doughnutGraphs {
+        justify-content: space-around;
+    }
+
+    .offcanvas .compareWith .donut-chart-container {
+        width: 96px;
+        height: 96px;
+    }
+
+}
+
+/* new btn */
+
+button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+button:active {
+    transform: translate(0em, 0.2em);
+}
